@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1624352853288,983,HTTP Request,200,OK,login 2-1,text,true,,276,177,1,4,http://httpbin.org/basic-auth/user/passwd,963,0,664
+1624352852446,7660,JDBC Request,200,OK,Petshop 1-1,text,true,,22,0,3,3,null,7654,0,7224
+1624352852753,7354,JDBC Request,200,OK,Petshop 1-2,text,true,,22,0,3,3,null,7348,0,6876
+1624352853114,6994,JDBC Request,200,OK,Petshop 1-3,text,true,,22,0,3,3,null,6987,0,6515
+1624352860130,1063,HTTP Request,200,,Petshop 1-3,text,true,,5464,163,3,3,https://petstore.octoperf.com/actions/Catalog.action?categoryId=DOG,1062,0,938
+1624352860130,1076,HTTP Request,200,,Petshop 1-1,text,true,,5464,163,2,2,https://petstore.octoperf.com/actions/Catalog.action?categoryId=DOG,1075,0,950
+1624352860129,1088,HTTP Request,200,,Petshop 1-2,text,true,,5464,163,1,1,https://petstore.octoperf.com/actions/Catalog.action?categoryId=DOG,1086,0,959
